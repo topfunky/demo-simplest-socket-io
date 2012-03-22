@@ -1,0 +1,9 @@
+h1= title
+p Welcome to #{title}
+
+form(method="post", action="/update", id="user_form")
+  label(for="user_name") Your Name:
+  input(type="text", name="user_name")
+  input(type="submit", name="submit")
+  
+ul#users
